@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robot/me212Code/MobileRobot/catkin_ws/devel/setup.sh

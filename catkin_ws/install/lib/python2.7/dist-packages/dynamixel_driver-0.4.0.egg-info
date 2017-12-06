@@ -1,0 +1,19 @@
+Metadata-Version: 1.0
+Name: dynamixel_driver
+Version: 0.4.0
+Summary: This package provides low level IO for Robotis Dynamixel servos.
+    Fully supports and was tested with AX-12, AX-18, RX-24, RX-28,
+    MX-28, RX-64, EX-106 models. Hardware specific constants are
+...
+Home-page: http://ros.org/wiki/dynamixel_driver
+Author: Antons Rebguns
+Author-email: arebgun@gmail.com
+License: BSD
+Description: This package provides low level IO for Robotis Dynamixel servos.
+            Fully supports and was tested with AX-12, AX-18, RX-24, RX-28,
+            MX-28, RX-64, EX-106 models. Hardware specific constants are
+            defined for reading and writing information from/to Dynamixel
+            servos. This low level package won't be used directly by most
+            ROS users. The higher level dynamixel_controllers and specific
+            robot joint controllers make use of this package.
+Platform: UNKNOWN

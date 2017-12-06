@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<launch>
+    <!-- Start joint controller -->
+    <rosparam file="$(find me212arm)/config/joint1_torque.yaml" command="load"/>
+    <node name="joint1_controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
+          args="--manager=dxl_manager
+                --port arm_port
+                joint1_torque_controller"
+          output="screen"/>
+          
+
+<!--
+    <node name="joint_state_publisher" pkg="me212arm" type="joint_state_publisher.py" required="true" output="screen"/>
+ -->
+
+    <rosparam>
+      p_gain: 0.003
+      d_gain: 0.0002
+    </rosparam>
+  
+</launch>

@@ -1,0 +1,53 @@
+
+cmd "0-roscore" {
+    exec = "roscore";
+    host = "localhost";
+}
+
+
+cmd "1-kinect" {
+    exec = "roslaunch freenect_launch freenect.launch depth_registration:=true";
+    host = "localhost";
+}
+
+cmd "2-apriltag" {
+    exec = "roslaunch apriltags apriltags.launch";
+    host = "localhost";
+}
+
+cmd "3-cameratf" {
+    exec = "roslaunch me212cv frames.launch";
+    host = "localhost";
+}
+
+cmd "4-robot" {
+    exec = "rosrun me212base me212bot.py";
+    host = "localhost";
+}
+
+cmd "5-object-detection" {
+    exec = "rosrun me212cv object_detection.py";
+    host = "localhost";
+}
+
+cmd "6-navigation" {
+    exec = "rosrun me212bot navigation.py";
+    host = "localhost";
+}
+
+cmd "7-human_comm" {
+    exec = "rosrun human_robot_comm human_comm.py";
+    host = "localhost";
+}
+
+cmd "8-dynamixel" {
+    exec = "roslaunch me212arm me212arm.launch";
+    host = "localhost";
+}
+    
+cmd "9-torque_controller" {
+    exec = "roslaunch me212arm start_arm_controller_torque.launch";
+    host = "localhost";
+}
+
+

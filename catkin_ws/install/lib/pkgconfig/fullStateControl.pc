@@ -1,0 +1,8 @@
+prefix=/home/robot/me212Code/MobileRobot/catkin_ws/install
+
+Name: fullStateControl
+Description: Description of fullStateControl
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robot/me212Code/MobileRobot/catkin_ws/install/lib 
+Requires: 

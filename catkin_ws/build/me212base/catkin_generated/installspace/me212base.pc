@@ -1,0 +1,8 @@
+prefix=/home/robot/me212Code/MobileRobot/catkin_ws/install
+
+Name: me212base
+Description: Description of me212base
+Version: 0.0.0
+Cflags: -I/home/robot/me212Code/MobileRobot/catkin_ws/install/include
+Libs: -L/home/robot/me212Code/MobileRobot/catkin_ws/install/lib 
+Requires: 

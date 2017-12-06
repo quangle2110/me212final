@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: dynamixel_controllers
+Version: 0.4.0
+Summary: This package contains a configurable node, services and a spawner script
+        to start, stop and restart one or more controller plugins. Reusable
+        controller types are defined for common ...
+Home-page: http://ros.org/wiki/dynamixel_controllers
+Author: Antons Rebguns
+Author-email: arebgun@gmail.com
+License: BSD
+Description: This package contains a configurable node, services and a spawner script
+                to start, stop and restart one or more controller plugins. Reusable
+                controller types are defined for common Dynamixel motor joints. Both speed and
+                torque can be set for each joint. This python package can be used by more
+                specific robot controllers and all configurable parameters can be loaded
+                via a yaml file.
+Platform: UNKNOWN

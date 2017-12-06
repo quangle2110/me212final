@@ -1,0 +1,8 @@
+prefix=/home/robot/me212Code/MobileRobot/catkin_ws/devel
+
+Name: human_robot_comm
+Description: Description of human_robot_comm
+Version: 0.0.0
+Cflags: -I/home/robot/me212Code/MobileRobot/catkin_ws/devel/include
+Libs: -L/home/robot/me212Code/MobileRobot/catkin_ws/devel/lib 
+Requires: roscpp rospy std_msgs message_runtime
